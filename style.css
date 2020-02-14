@@ -109,9 +109,9 @@
 }
 .osnovnoy{
   width: 100%;
-  height: 2000px;
+  height: 500px;
   background-color: #e9f0fd;
-  margin-top: 0px;
+  margin-top: -5px;
 }
 .zaglavie{
   font-family: 'Roboto', sans-serif;
@@ -174,7 +174,7 @@
   opacity: 0;
 }
 .l:hover{
-  background: grey;
+  background: #4ec6ab;
 }
 .pf{
   width: 231px;
@@ -196,7 +196,7 @@
   margin-left: -1px;
 }
 .price{
-  width: 33px;
+  width: 34px;
   height: 23px;
   background-color: grey;
   margin-left: 200px;
@@ -209,4 +209,31 @@
 }
 .name:hover{
   background: #1abc9c;
+}
+.glavniy{
+  display: flex;
+  justify-content: space-around;
+}
+.l4{
+  width: 162px;
+  background-color: grey;
+}
+.logo{
+  color: white;
+}
+.footer{
+  width: 100%;
+  height: 50px;
+  background-color: #323232;
+}
+.qer{
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-family: 'Open Sans', sans-serif;
+}
+.qert{
+  color: #4ec6ab;
+  margin-left: 3px;
+  font-family: 'Open Sans', sans-serif;
 }
