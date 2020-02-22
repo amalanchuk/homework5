@@ -74,7 +74,7 @@
 .txt{
     position: absolute;
     top: 220px;
-    left: 690px;
+    left: 390px;
     color: #fff;
     z-index: 5;
     font-size: 30px;
@@ -122,8 +122,8 @@
 .zaglavie::after{
   content: "";
   position: absolute;
-  top: 750px;
-  right: 905px;
+  top: 680px;
+  right: 585px;
   height: 7px;
   background-color: #4ec6ab;
   width: 120px;
@@ -248,4 +248,13 @@
 }
 .liu{
   font-size: 14px;
+}
+
+.slider{
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('images/image1.jpg');
+  background-size: cover;
+}
+.container{
+  width: 1200px;
+  margin: 0 auto;
 }
